@@ -284,7 +284,7 @@ function ProductList() {
                     </div>
                 
                 </div>
-                <div style={styleObjUl}>
+                <div style={{ ...styleObjUl, paddingLeft: '20%' }}>
                     <div> <a href="#" onClick={(e) => handlePlantsClick(e)} style={styleA}>Plants</a></div>
                     <div> 
                         <a href="#" onClick={(e) => handleCartClick(e)} style={styleA}>
